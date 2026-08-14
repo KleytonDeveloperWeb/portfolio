@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 0.9em Arial;
+}
+
+header {
+  background-color: darkblue;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: white;
+  font: bold 1.3rem serif;
+}
+
+header a {
+  margin-right: 5px;
+  color: white;
+  font-size: 1.6rem;
+}
