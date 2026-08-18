@@ -29,6 +29,10 @@ section {
   grid-column: 2 / 3;
 }
 
+.destaque {
+  color: var(--destaque-inverso);
+}
+
 /*-------------------------------------------------HEADER DA PAGINA---*/
 
 header {
@@ -96,10 +100,6 @@ section#perfil div#sobre > p {
   font-weight: bold;
 }
 
-section#perfil div#sobre .destaque {
-  color: var(--destaque-inverso);
-}
-
 section#perfil div#social {
   display: flex;
   align-items: center;
@@ -118,4 +118,37 @@ section#perfil div#social > a:hover {
   background-color: var(--destaque-inverso);
   color: var(--texto-inverso);
   box-shadow: 1px 1px 5px #00000030;
+}
+
+/*------------------------------------------------MAIN > SECTION INFORMAÇÕES---*/
+
+section#informacoes h2 {
+  color: var(--destaque-inverso);
+  font: bold 1.3rem serif;
+  margin: 5px 0px 5px 5px;
+}
+
+section#informacoes div#skill {
+  background-color: var(--fundo-destaque);
+  padding: 8px;
+  border-radius: 7px;
+}
+
+section#informacoes div#nome {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 0px;
+}
+
+section#informacoes div#bara {
+  background-color: var(--fundo);
+  height: 7px;
+  width: 100%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+section#informacoes div#porcentagem {
+  height: 7px;
+  background-color: var(--destaque-inverso);
+  border-radius: 0px 5px 5px 0px;
 }
